@@ -1,0 +1,18 @@
+*rspec-simple.txt* A simple way to run bundle rspec from vim
+
+Author:  Graeme Nathan
+License: Same terms as Vim itself (see |license|)
+
+INTRODUCTION                                    *rspec-simple*
+
+This plugin allows you to easily run the rspec file current in the buffer via
+bundle exec.
+
+*RSpec*
+RSpec       Given a line number, run bundle exec rspec with that line.
+
+*<leader>ft*
+<leader>ft    Run bundle exec rspec with the line under the cursor. Short for 'focus test'.
+
+*<leader>at*
+<leader>at    Run bundle exec rspec on the current file. Short for 'all tests'.
